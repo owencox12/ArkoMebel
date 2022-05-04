@@ -1,0 +1,101 @@
+.footer {
+    min-height: 583px;
+    background: #384685;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    &__item {
+        &_list {
+            &_type {
+                margin: 12px 0;
+                a {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    &:hover {
+                        color: gray;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+        &_tel {
+            margin-top: 25px;
+            a {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+                color: #FFFFFF;
+                text-decoration: none;
+                &:hover {
+                    color: gray;
+                    transition: all .3s;
+                }
+            }
+        }
+        &_info {
+            margin-top: 21px;
+            &_list {
+                &_type {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #FFFFFF;
+                    margin: 20px 0;
+                    &_first {
+                        span {
+                            margin-left: 26px;
+                        }
+                    }
+                    &_second {
+                        span {
+                            margin-left: 88px;
+                            white-space: pre;
+                        }
+                    }
+                    &_third {
+                        span {
+                            margin-left: 88px;
+                        }
+                    }
+                    span {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        &_title {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin-top: 67px;
+        }
+    }
+    &__text {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #DBDBDB;
+        margin-top: 82px;
+    }
+}

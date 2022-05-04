@@ -1,0 +1,32 @@
+.categories {
+    &__title {
+        margin-top: 79px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 41px;
+    }
+    &__item {
+        margin: 0 17px;
+        cursor: pointer;
+        &_block {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #384685;
+            border: 1px solid #384685;
+            border-radius: 5px;
+            padding: 0 23px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 15px;
+            &_active {
+                color: #fff;
+                background: #384685;
+            }
+        }
+    }
+}

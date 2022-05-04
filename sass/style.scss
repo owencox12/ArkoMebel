@@ -1,0 +1,22 @@
+.container {
+    max-width: 1520px;
+    margin: 0 auto;
+    &__footer {
+        max-width: 1650px
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/title';
+@import 'blocks/catalog';
+@import 'blocks/products';
+@import 'blocks/categories';
+@import 'blocks/slider';
+@import 'blocks/jobs';
+@import 'blocks/information';
+@import 'blocks/instagram';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

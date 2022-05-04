@@ -1,0 +1,48 @@
+.slider {
+    position: relative;
+    &__title {
+        margin-top: 76px;
+    }
+    .products__item_slider {
+        margin-top: 66px;
+    }
+    &__left {
+        position: absolute;
+        left: -7%;
+        cursor: pointer;
+        top: 40%;
+        background: #fff;
+        &_block {
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            border: 1px solid rgba(0,0,0,.2);
+            position: relative;
+            &_image {
+                position: absolute;
+                top: 35%;
+                left: 30%;
+            }
+        }
+    }
+    &__right {
+        position: absolute;
+        right: 0;
+        top: 40%;
+        z-index: 3000;
+        cursor: pointer;
+        &_block {
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            border: 1px solid rgba(0,0,0,.2);
+            position: relative;
+            background: #fff;
+            &_image {
+                position: absolute;
+                top: 35%;
+                left: 30%;
+            }
+        }
+    }
+}

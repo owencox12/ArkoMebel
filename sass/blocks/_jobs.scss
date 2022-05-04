@@ -1,0 +1,77 @@
+.jobs {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__title {
+        margin-top: 95px;
+    }
+    &__item {
+        &_image {
+            position: relative;
+            &_text {
+                position: absolute;
+                bottom: 0;
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.065em;
+                color: #FFFFFF;
+                background: #384685;
+                padding: 0 15px;
+                padding-top: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+        &_images {
+            display: flex;
+            &_image {
+                position: relative;
+                &_text {
+                    position: absolute;
+                    bottom: 0;
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 28px;
+                    letter-spacing: 0.065em;
+                    color: #FFFFFF;
+                    background: #384685;
+                    padding: 0 15px;
+                    padding-top: 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+            }
+            &_second {
+                margin-top: 20px;
+                position: relative;
+                &_text {
+                    position: absolute;
+                    bottom: 0;
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 28px;
+                    letter-spacing: 0.065em;
+                    color: #FFFFFF;
+                    background: #384685;
+                    padding: 0 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+            }
+            &_image {
+                &:nth-child(2) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
