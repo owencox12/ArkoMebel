@@ -149,7 +149,8 @@
             text-align: center;
             padding: 15px 0;
             &:hover {
-                background: rgba(0,0,0,.3);
+                background: #384685;
+                color: #fff;
                 transition: all .3s;
             }
             &_active {
